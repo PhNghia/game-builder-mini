@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game</title>\
+    <link rel="stylesheet" href="/templates/quiz/styles.css">
+</head>
+
+<body>
+    <!-- <h2>Quiz Game</h2> -->
+
+    <div class="game-container">
+
+        <div id="question" class="question"></div>
+
+        <div id="answers" class="answers"></div>
+
+        <div class="nav">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+    </div>
+
+    <script>
+        const gameData = __GAME_DATA__;
+    </script>
+
+    <script src="/templates/quiz/engine.js"></script>
+
+</body>
+
+</html>
