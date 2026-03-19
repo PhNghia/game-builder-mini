@@ -1,0 +1,5 @@
+node_modules
+.env
+# ignore all build or can install folder trong project
+**/node_modules/
+**/dist/
